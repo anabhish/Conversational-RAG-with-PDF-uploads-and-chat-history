@@ -13,11 +13,6 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
-
-from dotenv import load_dotenv
-load_dotenv()
-os.environ['HF_TOKEN'] = os.getenv('HF_TOKEN')
-
 embeddings = HuggingFaceEmbeddings(model_name = "BAAI/bge-small-en-v1.5")
 
 # set up streamlit
