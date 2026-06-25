@@ -22,3 +22,5 @@ faiss_index/
 # OS files
 .DS_Store
 Thumbs.db
+
+temp.pdf
