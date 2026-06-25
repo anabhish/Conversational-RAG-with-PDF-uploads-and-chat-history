@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Vector databases
+chroma/
+chroma_db/
+faiss_index/
+
+# OS files
+.DS_Store
+Thumbs.db
